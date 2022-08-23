@@ -1,0 +1,104 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Bebas Neue', cursive;
+}
+.bigimage{
+
+    height: 100vh;
+    position: relative;
+    background-image: url(images/donation6.jpg);
+    
+}
+
+.overlay h1{
+    color:orange;
+    font-size: 50px;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    font-weight: 600;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.856);
+}
+.mid-point{
+    text-align: center;
+    padding-top: 20px;
+
+}
+.one-four{
+    text-align: center;
+    padding-right: 20px;
+}
+.one-four{
+    box-shadow:2px solid tomato;
+}
+.flexible-contant{
+    
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-left: 5%;
+    display: inline block;
+}
+.middle-banner h1{
+     text-align: center;
+}
+.one-third{
+    width: 23%;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: justify;
+    margin-right: 3%;
+    height: 550px;
+
+}
+.bg-color_1{
+    background-color: #ffeeee;
+}
+.bg-color_2{
+    background-color: antiquewhite;
+}
+.bg-color_3{
+    background-color: #fff4d6;
+}
+.one-third img{
+    width: 40%;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 80%;
+}
+.footer{
+    text-align:  center;
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+    height: 150px;
+}
+.footer h2{
+    color: tomato;
+    font-family: 'yellowtail' cursive;
+
+}
